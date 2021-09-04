@@ -54,7 +54,6 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         If (MsgBox("¿DESEA SALIR?", vbQuestion + vbYesNo, "MENSAJE DE SALIDA") = vbYes) Then
             Me.Close()
-            'End
         End If
     End Sub
 

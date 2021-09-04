@@ -196,7 +196,7 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.Label6)
         Me.GroupBox3.Controls.Add(Me.Label4)
         Me.GroupBox3.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(419, 99)
+        Me.GroupBox3.Location = New System.Drawing.Point(420, 99)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(212, 132)
         Me.GroupBox3.TabIndex = 6
