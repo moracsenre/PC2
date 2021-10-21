@@ -246,4 +246,9 @@ Public Class Form1
     Private Sub LIMPIARESTADISTICASToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LIMPIARESTADISTICASToolStripMenuItem.Click
         limpiar_estadisticas()
     End Sub
+
+    Private Sub ELIMINARDATOSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ELIMINARDATOSToolStripMenuItem.Click
+        limpiar_entradas()
+        TNOMBRE.Focus()
+    End Sub
 End Class

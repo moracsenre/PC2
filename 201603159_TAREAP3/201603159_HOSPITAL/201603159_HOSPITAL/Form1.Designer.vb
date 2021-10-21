@@ -41,8 +41,8 @@ Partial Class Form1
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MOSTRARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CONSULTARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LIMPIARMATRIZToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ESTADISTICAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LIMPIARMATRIZToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LIMPIARESTADISTICASToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SALIRDELPROGRAMAToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -72,6 +72,7 @@ Partial Class Form1
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ELIMINARDATOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -229,7 +230,7 @@ Partial Class Form1
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.MediumSeaGreen
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.MOSTRARToolStripMenuItem, Me.CONSULTARToolStripMenuItem, Me.ESTADISTICAToolStripMenuItem, Me.LIMPIARMATRIZToolStripMenuItem, Me.LIMPIARESTADISTICASToolStripMenuItem, Me.SALIRDELPROGRAMAToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.MOSTRARToolStripMenuItem, Me.CONSULTARToolStripMenuItem, Me.ESTADISTICAToolStripMenuItem, Me.ELIMINARDATOSToolStripMenuItem, Me.LIMPIARMATRIZToolStripMenuItem, Me.LIMPIARESTADISTICASToolStripMenuItem, Me.SALIRDELPROGRAMAToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1044, 25)
@@ -257,19 +258,19 @@ Partial Class Form1
         Me.CONSULTARToolStripMenuItem.Size = New System.Drawing.Size(94, 21)
         Me.CONSULTARToolStripMenuItem.Text = "CONSULTAR"
         '
-        'LIMPIARMATRIZToolStripMenuItem
-        '
-        Me.LIMPIARMATRIZToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LIMPIARMATRIZToolStripMenuItem.Name = "LIMPIARMATRIZToolStripMenuItem"
-        Me.LIMPIARMATRIZToolStripMenuItem.Size = New System.Drawing.Size(124, 21)
-        Me.LIMPIARMATRIZToolStripMenuItem.Text = "LIMPIAR MATRIZ"
-        '
         'ESTADISTICAToolStripMenuItem
         '
         Me.ESTADISTICAToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ESTADISTICAToolStripMenuItem.Name = "ESTADISTICAToolStripMenuItem"
         Me.ESTADISTICAToolStripMenuItem.Size = New System.Drawing.Size(100, 21)
         Me.ESTADISTICAToolStripMenuItem.Text = "ESTADISTICA"
+        '
+        'LIMPIARMATRIZToolStripMenuItem
+        '
+        Me.LIMPIARMATRIZToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIMPIARMATRIZToolStripMenuItem.Name = "LIMPIARMATRIZToolStripMenuItem"
+        Me.LIMPIARMATRIZToolStripMenuItem.Size = New System.Drawing.Size(124, 21)
+        Me.LIMPIARMATRIZToolStripMenuItem.Text = "LIMPIAR MATRIZ"
         '
         'LIMPIARESTADISTICASToolStripMenuItem
         '
@@ -528,6 +529,13 @@ Partial Class Form1
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
         '
+        'ELIMINARDATOSToolStripMenuItem
+        '
+        Me.ELIMINARDATOSToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ELIMINARDATOSToolStripMenuItem.Name = "ELIMINARDATOSToolStripMenuItem"
+        Me.ELIMINARDATOSToolStripMenuItem.Size = New System.Drawing.Size(128, 21)
+        Me.ELIMINARDATOSToolStripMenuItem.Text = "ELIMINAR DATOS"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -607,4 +615,5 @@ Partial Class Form1
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
     Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ELIMINARDATOSToolStripMenuItem As ToolStripMenuItem
 End Class
